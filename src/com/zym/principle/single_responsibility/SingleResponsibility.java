@@ -1,8 +1,7 @@
-package com.zym.single_responsibility;
-
-import com.sun.xml.internal.ws.api.pipe.ServerTubeAssemblerContext;
+package com.zym.principle.single_responsibility;
 
 /**
+ * 单一职责原则
  * @author zhouyumeng
  * @date 2021/11/24
  **/
