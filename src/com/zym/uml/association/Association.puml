@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+'关联关系
+
+class Person
+class IDCard
+
+'单向关系
+'Person --> IDCard
+
+'双向关系
+Person -- IDCard
+
+@enduml
