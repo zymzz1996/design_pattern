@@ -8,6 +8,6 @@ class DaoSupport{
     delete(): void
 }
 
-PersonServiceBean <|-- DaoSupport
+DaoSupport <|-- PersonServiceBean : 泛化
 
 @enduml

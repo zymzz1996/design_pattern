@@ -13,9 +13,9 @@ class Person
 class PersonDao
 class Department
 
-PersonServiceBean --> IDCard
-PersonServiceBean --> Person
-PersonServiceBean --> PersonDao
-PersonServiceBean --> Department
+PersonServiceBean --> IDCard : 依赖
+PersonServiceBean --> Person : 依赖
+PersonServiceBean --> PersonDao : 依赖
+PersonServiceBean --> Department : 依赖
 
 @enduml

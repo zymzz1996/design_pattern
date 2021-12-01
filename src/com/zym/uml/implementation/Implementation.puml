@@ -5,7 +5,7 @@
 class PersonService
 class PersonServiceBean
 
-PersonService <|.. PersonServiceBean
+PersonService <|.. PersonServiceBean : 实现
 
 
 @enduml
