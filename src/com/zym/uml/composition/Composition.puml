@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+'组合关系
+
+class Person{
+    head: Head = new Head()
+    idCard: IDCard
+}
+class Head
+class IDCard
+
+Person *-- Head: 组合
+Person o-- IDCard: 聚合
+
+@enduml
