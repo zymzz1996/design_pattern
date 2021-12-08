@@ -2,10 +2,10 @@ package com.zym.pattern.singleton;
 
 /**
  * 饿汉式(静态代码块)
- * @author: zhouyumeng
- * @date: 2021-12-04
+ * @author zhouyumeng
+ * @date 2021-12-04
  **/
-public class Type2 {
+public class StaticCodeBlock {
 
     public static void main(String[] args) {
         Singleton instance = Singleton.getInstance();

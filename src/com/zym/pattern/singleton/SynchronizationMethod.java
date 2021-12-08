@@ -2,10 +2,10 @@ package com.zym.pattern.singleton;
 
 /**
  * 懒汉式(线程安全)
- * @author: zhouyumeng
- * @date: 2021-12-04
+ * @author zhouyumeng
+ * @date 2021-12-04
  **/
-public class Type3 {
+public class SynchronizationMethod {
 
     public static void main(String[] args) {
         Singleton instance = Singleton.getInstance();
