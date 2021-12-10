@@ -1,8 +1,8 @@
-package com.zym.pattern.factory.simple.order;
+package com.zym.pattern.factory.simple_factory.order;
 
-import com.zym.pattern.factory.simple.pizza.MeatPizza;
-import com.zym.pattern.factory.simple.pizza.Pizza;
-import com.zym.pattern.factory.simple.pizza.VegetablePizza;
+import com.zym.pattern.factory.simple_factory.pizza.MeatPizza;
+import com.zym.pattern.factory.simple_factory.pizza.Pizza;
+import com.zym.pattern.factory.simple_factory.pizza.VegetablePizza;
 
 /**
  * 应该为单例

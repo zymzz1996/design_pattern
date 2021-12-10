@@ -1,4 +1,4 @@
-package com.zym.pattern.factory.simple.pizza;
+package com.zym.pattern.factory.simple_factory.pizza;
 
 /**
  * @author zhouyumeng
