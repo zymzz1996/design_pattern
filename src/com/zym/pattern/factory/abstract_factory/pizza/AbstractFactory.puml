@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Pizza{
+    abstract prepare(): void
+    bake(): void
+    cut(): void
+    box(): void
+}
+class DicosMeatPizza{
+    prepare(): void
+}
+class DicosVegetablePizza{
+    prepare(): void
+}
+class JohnMeatPizza{
+    prepare(): void
+}
+class JohnVegetablePizza{
+    prepare(): void
+}
+
+Pizza <|-- DicosMeatPizza
+Pizza <|-- DicosVegetablePizza
+Pizza <|-- JohnMeatPizza
+Pizza <|-- JohnVegetablePizza
+
+
+class OrderPizza{
+    PizzaFactory pizzaFactory
+    order(): void
+    getType(): String
+}
+class PizzaFactory{
+    abstract producingPizza(String type): Pizza
+}
+class DicosPizzaFactory{
+    producingPizza(String type): Pizza
+}
+class JohnPizzaFactory{
+    producingPizza(String type): Pizza
+}
+
+DicosPizzaFactory --|> PizzaFactory
+JohnPizzaFactory --|> PizzaFactory
+
+DicosMeatPizza <--  DicosPizzaFactory
+DicosVegetablePizza <--  DicosPizzaFactory
+
+JohnMeatPizza <-- JohnPizzaFactory
+JohnVegetablePizza <-- JohnPizzaFactory
+
+PizzaFactory --o OrderPizza
+
+@enduml
