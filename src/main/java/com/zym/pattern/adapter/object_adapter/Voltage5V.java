@@ -1,4 +1,4 @@
-package com.zym.pattern.adapter.class_adapter;
+package com.zym.pattern.adapter.object_adapter;
 
 /**
  * @author zhouyumeng
